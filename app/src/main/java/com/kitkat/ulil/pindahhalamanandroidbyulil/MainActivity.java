@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected{
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView textview = new TextView(MainActivity.this);
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    } void onCreate(Bundle savedInstanceState)
+    }
 
 
     public void intent (View view) {
